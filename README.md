@@ -1,1 +1,3 @@
-## 자동으로 Subdomain을 검색하고 Endpoint를 찾아 XXS를 찾습니다
+# AutoRecon
+자동으로 Subdomain 및 Endpoint를 찾아
+XSS 취약점이 있는지 확인하는 Shell
