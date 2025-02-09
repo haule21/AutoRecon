@@ -1,3 +1,3 @@
 # AutoRecon
-자동으로 Subdomain 및 Endpoint를 찾아
-XSS 취약점이 있는지 확인하는 Shell
+
+취약점 발견을 위해 사용되는 Shell Script 입니다.
