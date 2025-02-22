@@ -1,7 +1,10 @@
 #!/bin/bash
 
-# /home/haule/BUGBOUNTY/Scripts/XSS/useParamSpider.sh /home/haule/BUGBOUNTY/Datas/$1/$1_host_subs.txt
-for d in /home/haule/BUGBOUNTY/Datas/$1/output/https:/*;
+if test -d ../../Data/$1/output/https:/*; then
+	echo "First need recon"
+fi
+	
+for d in ../../Datas/$1/output/https:/*;
 do
         cat "${d}" | /root/go/bin/kxss
 done;
