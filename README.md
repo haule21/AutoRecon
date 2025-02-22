@@ -10,10 +10,17 @@ Bug Bounty Program을 더욱 더 적극적으로 참여할 수 있도록 만들�
 
 ## 사용법
 ### 설치
-**Linux**
-설치를 위해서 Go를 설치해야해요.
-[Go 설치](https://go.dev/doc/install)
-
+### **Linux**  
+설치를 위해서 Go를 설치해야해요.  
+[Go 설치](https://go.dev/doc/install)  
+  
+  
+설치를 위해서 Python을 2.x, 3.x 버전이 필요해요.
+```
+apt-get install python3
+apt-get install python2.7
+apt-get install python-pip
+apt-get install python3-pip
 ```
 git clone github.com/haule21/AutoRecon
 cd AutoRecon  
