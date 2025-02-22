@@ -22,9 +22,9 @@ go install github.com/tomnomnom/httprobe@latest
 go install github.com/Emoe/kxss@latest
 
 # install paramspider
-git clone https://github.com/devanshbatham/paramspider
-cd paramspider
-pip install .
+git clone https://github.com/0xKayala/ParamSpider
+cd ParamSpider
+pip3 install -r requirements.txt
 cd ..
 
 # install sublist3r
