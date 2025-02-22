@@ -22,6 +22,9 @@ apt-get install python2.7
 apt-get install python-pip
 apt-get install python3-pip
 ```
+
+사용필요한 Tool 들을 자동으로 설치해줘요.
+```
 git clone github.com/haule21/AutoRecon
 cd AutoRecon  
 ./autoInstall.sh
